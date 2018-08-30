@@ -25,6 +25,8 @@ Contributors:
 #include "memory_mosq.h"
 #include "time_mosq.h"
 
+#undef REAL_WITH_MEMORY_TRACKING
+
 #define BUFLEN 100
 
 #define SYS_TREE_QOS 2
