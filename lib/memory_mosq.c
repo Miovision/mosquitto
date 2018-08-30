@@ -21,6 +21,8 @@ Contributors:
 
 #include "memory_mosq.h"
 
+#undef REAL_WITH_MEMORY_TRACKING
+
 #ifdef REAL_WITH_MEMORY_TRACKING
 #  if defined(__APPLE__)
 #    include <malloc/malloc.h>
